@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <EntityDescriptor xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
     xmlns="urn:oasis:names:tc:SAML:2.0:metadata"
-    entityID="CN=Soarian Clinicals, OU=TEST, O=I315, C=US">
+    entityID="https://usmlvv1cto912.usmlvv1d0a.smshsc.net/SLPA/sframe/logon.pbd">
   <IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
     <KeyDescriptor use="signing">
       <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
