@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<EntityDescriptor xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+    xmlns="urn:oasis:names:tc:SAML:2.0:metadata"
+    entityID="CN=Soarian Clinicals, OU=TEST, O=I315, C=US">
+  <IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <!-- public saml cert -->
+          <ds:X509Certificate>MIICsjCCAZqgAwIBAgIEVGm/uDANBgkqhkiG9w0BAQsFADAbMRkwFwYDVQQDDBBTQU1MX1NJR05JTkdfS0VZMB4XDTE0MTExNzA5MzA0M1oXDTM0MTExNzA5MzA0M1owGzEZMBcGA1UEAwwQU0FNTF9TSUdOSU5HX0tFWTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIjvn8eCtkpPp+ZKXuMSrFtD5l4GsuL4ESVc0XthyKKYuM+H8ttisb9kdIb0sM/dAxI+odzpqTDxV7aP3tdVrBtnYuiw6UhzKMwPj4GIfV3CzWYdFpHP4Nj+8EGuns2IwEFuDkbXuSri8sfK3QIVyHK8hRWlmvrFnwx+V4ZwFKAU1/vQ2c1w6DCXsYfbYag7ZdHWeY+VsIO9Gm8/VGUbSb5YKZcUP0cngaQNVr+OsYYIwSsMbnUykQOTvK7NQ69Zitqo2trqA6+I36Hfq03UayND/oPPBrlTw8prrJfWqosv+82Q45hsJc95cjLvyM5ZsKa7TkqbEKHu1mXkhbo0kPMCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAfda2KeKU3gBM3obneqajLOaCAVNYB+NDJ2+ne0qAtMXCXf/g3zObuMkLjktqXhmU6ZLB6q7tOi7FLDvgcgr6fgDeyUX838xYxCJxLxw9FzjXscKCYmffdUtkrGlkDrqtyt8YWnY4V995iS86qwGJu1USk+ZCJh4MKm5gqADh6cy3tvMrrJZ/M8GSfw11pMcLGK7lGONvQ2F9ZxLZhHgna5dEa0QjEPtiQmhz0vc5t+4ggxjrWKG0eLQY22U0qvlwPRhwm55jkyztirHeqA2va9L0Zpi89afT4zpY1NHjc2iCNh+r7pkecnFylm14IU4YjpuFvQ+y1AU+dFUVYpSFjA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+
+    <!-- Supported Name Identifier Formats -->
+    <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</NameIDFormat>
+
+    <!-- POST binding and location=idp url -->
+    <SingleSignOnService 
+      Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+      Location="https://usmlvv1cto912.usmlvv1d0a.smshsc.net/SLPA/sframe/logon.pbd" />
+
+  </IDPSSODescriptor>
+</EntityDescriptor>
