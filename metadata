@@ -18,7 +18,7 @@
     <!-- POST binding and location=idp url -->
     <SingleSignOnService 
       Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
-      Location="https://usmlvv1cto912.usmlvv1d0a.smshsc.net/SLPA/sframe/logon.pbd" />
+      Location="https://usmlvv1cto912.usmlvv1d0a.smshsc.net/SLPA/lpa/start.pba" />
 
   </IDPSSODescriptor>
 </EntityDescriptor>
