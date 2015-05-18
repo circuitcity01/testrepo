@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <EntityDescriptor xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
     xmlns="urn:oasis:names:tc:SAML:2.0:metadata"
-    entityID="https://usmlvv1cto912.usmlvv1d0a.smshsc.net/SLPA/sframe/logon.pbd">
+    entityID="4b593d7e-090c-494e-ac8d-041dc2b3a6f6">
   <IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
     <KeyDescriptor use="signing">
       <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
